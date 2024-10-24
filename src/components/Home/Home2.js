@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/0I1A6002.JPG";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -22,34 +22,16 @@ function Home2() {
             <p className="home-about-bodyß">
               I love sport and analaze the player stats. 
               <br />
-              <br />I am fluent in classics like
+              <br />I use
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Java, Python, and R.</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
+              My interests are in data science and statistics, which are rising stars in the sports industry, and in creating player values ​​and scouting reports.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              As much as possible, I watch and play as many sports as I can, and analyze sports from a player's perspective and statistically.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

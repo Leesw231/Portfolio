@@ -2,11 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import leaf from "../../Assets/Projects/F1.png";
+import Lakers from "../../Assets/Projects/Lakers.png";
 import bitsOfCode from "../../Assets/Projects/MLB.png";
 
 function Projects() {
@@ -28,56 +25,34 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="MLB Stadium Home Run Effect"
-              description="ADD description here"
+              description="The most common myth in baseball is that the team lost because the stadium was too small, or that the team won because of the stadium. You might think that this is because the number of home runs produced varies greatly depending on the stadium. This project explains the correlation between these stadiums and actual data."
               ghLink="https://github.com/Sewon231/MLB-Stadium-Analysis/blob/main/Final%20project.Rmd"
               demoLink="https://s22260956.shinyapps.io/short_project/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              // imgPath={editor}
-              isBlog={false}
-              title="Placeholder"
-              description="ADD description here"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={leaf}
+              imgPath={leaf}
               isBlog={false}
               title="F1 Driver"
-              description="ADD description here"
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              description="F1 is no longer a minor sport. It has attracted many fans and competition for secondary industries and stadiums is fierce. There are many different players in F1. There are veteran players like Sir. Lewis Hamilton and Asian players like Yuki Tsunoda. And each player has a different debut age. Therefore, this project uses sports data science techniques to prove the topic to see if there is an optimal debut age."
+              ghLink="https://github.com/Sewon231/F1-rookie-age-analysis-project"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={Lakers}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="LA Lakers 23-24 player stat"
+              description="One of the most important things in sports data science is visualizing data. This can be a graph or a chart. This project is a project to visualize player stats, which is the basis of sports data science."
+              ghLink="https://github.com/Sewon231/LA-LAKERS-Player-stat-2023-2024"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>
