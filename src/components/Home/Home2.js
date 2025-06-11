@@ -20,7 +20,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-bodyß">
-              I love sport and analaze the player stats. 
+              I’m really into sports analytics and tracking player stats.
               <br />
               <br />I use
               <i>
@@ -28,11 +28,9 @@ function Home2() {
               </i>
               <br />
               <br />
-              My interests are in data science and statistics, which are rising stars in the sports industry, and in creating player values ​​and scouting reports.
+              I'm passionate about data science and statistics, especially how they're becoming game-changers in the sports industry. I love working on player valuations and creating insightful scouting reports!              <br />
               <br />
-              <br />
-              As much as possible, I watch and play as many sports as I can, and analyze sports from a player's perspective and statistically.
-            </p>
+              I try to watch and play as many sports as I can, analyzing each one both from a player’s perspective and through a statistical lens.            </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
