@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "src/Assets/Sewon Lee - Resume.pdf";
+import pdf from "src/Assets/Sewon Lee - Resume.pdf"; // PDF import 경로 맞는지 확인 필요
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
@@ -15,13 +16,10 @@ function ResumeNew() {
     setWidth(window.innerWidth);
   }, []);
 
-  const pdf = null;
-
   return (
     <div>
       <Container fluid className="resume-section">
         <Particle />
-
         {pdf && (
           <Row className="resume">
             <Document file={pdf} className="d-flex justify-content-center">
@@ -29,7 +27,6 @@ function ResumeNew() {
             </Document>
           </Row>
         )}
-
         {pdf && (
           <Row style={{ justifyContent: "center", position: "relative" }}>
             <Button
