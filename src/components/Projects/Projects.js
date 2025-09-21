@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/F1.png";
 import Lakers from "../../Assets/Projects/Lakers.png";
 import bitsOfCode from "../../Assets/Projects/MLB.png";
+import Yankees from "../../Assets/Projects/baseball.png";
+import baseball from "../../Assets/Projects/Yankees.png";
 
 function Projects() {
   return (
