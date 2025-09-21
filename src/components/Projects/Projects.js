@@ -60,6 +60,7 @@ function Projects() {
               isBlog={false}
               title="Analysis of optimal launch conditions for each baseball field: Mathematical modeling using minimum wall height and distance data"
               description="This research analyzes optimal launch conditions for home runs in different MLB stadiums by modeling the effects of wall height and distance on the minimum required speed and angle for a successful home run."
+              demoLink="https://docs.google.com/document/d/1iEFWJ9AabdIbJRGczTmhniK2F_ywutWqr96E7MXcKfs/edit?usp=sharing"
             />
           </Col>
 
@@ -69,6 +70,7 @@ function Projects() {
               isBlog={false}
               title="Triple Play Strategy: Sustainable Digital Transformation for the New York Yankees"
               description="This project proposes a comprehensive digital transformation strategy for the New York Yankees, emphasizing sustainable and innovative solutions to enhance the organization’s operations."
+              demoLink="https://docs.google.com/document/d/1Jw1fvSy7EQSG5KNEOw--DI9Wsi-jddlespqKCLNJSUA/edit?usp=sharing"
             />
           </Col>
 
