@@ -17,29 +17,20 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            About me
             </h1>
             <p className="home-about-bodyß">
-              I love sport and analaze the player stats. 
-              <br />
-              <br />I use
-              <i>
-                <b className="purple"> Java, Python, and R.</b>
-              </i>
-              <br />
-              <br />
-              I’m passionate about transforming the way sports are understood through the power of data. As a Korean student deeply involved in both athletics and STEM, I explore the intersection of sports, statistics, and technology—whether modeling lacrosse performance, conducting research projects at Harvard and Wharton, or running my school’s popular lunch website.      
-              <br />
-              <br />
-              Curiosity drives everything I do, from analyzing MLB stadium effects to mentoring younger coders and leading multi-national student clubs. My projects have ranged from optimizing health center operations with data science to receiving national recognition for research supporting fellow international students. 
-              <br />
-              I believe real impact happens when analytics meet empathy, teamwork, and consistency. Whether I’m competing on the field, leading a community initiative, or simply supporting my peers, I strive to connect insights with action. 
-              <br />
-              <br />
-              Currently, I’m focused on sports analytics, data science research, and mentoring others—always looking for ways to make systems, teams, and lives better through careful, purpose-driven innovation.      
-              <br />
-              <br />
-              I try to watch and play as many sports as I can, analyzing each one both from a player’s perspective and through a statistical lens
+            My languages: English, Korean, Spanish, Java, Python, and R
+
+
+
+
+
+
+
+
+
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
