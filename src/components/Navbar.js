@@ -9,7 +9,7 @@ import {
   AiOutlineUser,
   AiOutlineCamera
 } from "react-icons/ai";
-import { GiLacrosseStick } from "react-icons/gi";
+import { FaRunning } from "react-icons/fa"; // Lacrosse icon replacement
 import { BsMic } from "react-icons/bs";
 
 function NavBar() {
@@ -81,7 +81,7 @@ function NavBar() {
                 to="/lacrosse"
                 onClick={() => updateExpanded(false)}
               >
-                <GiLacrosseStick style={{ marginBottom: "2px" }} /> Lacrosse
+                <FaRunning style={{ marginBottom: "2px" }} /> Lacrosse
               </Nav.Link>
             </Nav.Item>
 
