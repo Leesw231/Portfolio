@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/profile.JPG"; // Corrected and simplified image path
+import myImg from "../../Assets/profile.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
+  AiFillInstagram, // Instagram icon import
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -35,7 +35,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Leesw231" // This can be your GitHub link
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -45,12 +45,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.instagram.com/lee_se_231/" // <-- 여기에 본인 인스타그램 주소를 입력하세요.
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
-                  <FaLinkedinIn />
+                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
@@ -61,3 +61,4 @@ function Home2() {
   );
 }
 export default Home2;
+
