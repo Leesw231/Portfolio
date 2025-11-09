@@ -10,9 +10,6 @@ function Footer() {
         <Col md="6" className="footer-copywright">
           <h3>Designed and Developed by Sewon Lee</h3>
         </Col>
-        <Col md="6" className="footer-copywright">
-          <h3>Copyright © {year} Sewon Lee</h3>
-        </Col>
       </Row>
     </Container>
   );
