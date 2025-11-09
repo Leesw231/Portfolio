@@ -6,7 +6,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Community from "./components/Community/Community"; // Community 컴포넌트 import
-import Community from "./components/Lacrosse/Lacrosse";
+import Lacrosse from "./components/Lacrosse/Lacrosse";
 import {
   BrowserRouter as Router,
   Route,
