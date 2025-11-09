@@ -5,7 +5,7 @@ import "./Lacrosse.css";
 
 // --- 비디오 파일 (이름을 직접 수정해주세요) ---
 import video1 from "../../Assets/Projects/Goal2025.MOV";
-import video2 from "../../Assets/Projects/Bodycheck2023.MOV";
+import video2 from "../../Assets/Projects/Bodycheck2023.mov";
 
 // --- 라크로스 사진들 ---
 import photo1 from "../../Assets/Projects/0I1A5148_Original.jpg";
@@ -48,13 +48,13 @@ function Lacrosse() {
         <Row style={{ justifyContent: "center", paddingBottom: "20px" }}>
           <Col md={6} className="video-col">
             <video controls className="Goal2025">
-              <source src={video1} type="video/mp4" />
+              <source src={video1} type="video/MOV" />
               Your browser does not support the video tag.
             </video>
           </Col>
           <Col md={6} className="video-col">
             <video controls className="Bodycheck2023">
-              <source src={video2} type="video/mp4" />
+              <source src={video2} type="video/mov" />
               Your browser does not support the video tag.
             </video>
           </Col>
