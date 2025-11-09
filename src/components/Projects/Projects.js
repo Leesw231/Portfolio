@@ -46,7 +46,7 @@ function Projects() {
               imgPath={sjaLunchImg}
               isBlog={false} // 'Demo' 버튼으로 표시하기 위해 false로 설정
               title="SJA Lunch Website"
-              description="A web application developed to provide the daily meal menu for the St. Johnsbury Academy Jeju community. It's a live service I manage, handling everything from data input to deployment."
+              description="A web application developed to provide the daily meal menu for the St. Johnsbury Academy Jeju community. 10000+ daily visitor."
               demoLink="https://www.sjalunch.com/"
             />
           </Col>
