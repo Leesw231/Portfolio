@@ -6,7 +6,7 @@ import Particle from "../Particle";
 // --- 이미지 import ---
 import icheonJournal from "../../Assets/Projects/IcheonJournal.png";
 import wechok from "../../Assets/Projects/WEchok.png";
-import internship from "../../Assets/Projects/Internship.jpg";
+import internship from "../../Assets/Projects/Internship.png";
 import volunteerAward from "../../Assets/Projects/VolunteerAward.jpg";
 
 function Community() {
