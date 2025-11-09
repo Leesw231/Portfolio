@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Community from "./components/Community/Community"; // Community 컴포넌트 import
+import Community from "./components/Lacrosse/Lacrosse";
 import {
   BrowserRouter as Router,
   Route,
@@ -38,7 +39,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
-         
+          <Route path="/Lacrosse" element={<Lacrosse />} />
           <Route path="/community" element={<Community />} /> {/* Community 라우트 추가 */}
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
