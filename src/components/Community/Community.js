@@ -4,7 +4,7 @@ import ProjectCard from "../Projects/ProjectCards"; // ProjectCard 컴포넌트�
 import Particle from "../Particle";
 
 // --- 이미지 import ---
-import icheonJournal from "../../Assets/Projects/IcheonJournal.jpg";
+import icheonJournal from "../../Assets/Projects/IcheonJournal.png";
 import wechok from "../../Assets/Projects/WEchok.png";
 import internship from "../../Assets/Projects/Internship.jpg";
 import volunteerAward from "../../Assets/Projects/VolunteerAward.jpg";
