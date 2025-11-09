@@ -2,11 +2,19 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+
+// --- 기존 이미지들 ---
 import leaf from "../../Assets/Projects/F1.png";
 import Lakers from "../../Assets/Projects/Lakers.png";
 import bitsOfCode from "../../Assets/Projects/MLB.png";
 import Yankees from "../../Assets/Projects/baseball.png";
 import baseball from "../../Assets/Projects/Yankees.png";
+// --------------------
+
+// --- 새로 추가된 이미지 ---
+import whartonImg from "../../Assets/Projects/Wharton.jpg";
+import sjaLunchImg from "../../Assets/Projects/SJALunch.jpg";
+// -----------------------
 
 function Projects() {
   return (
@@ -14,14 +22,36 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-        Research & Projects <strong className="purple"> </strong>
+          Research & Projects <strong className="purple"> </strong>
         </h1>
         <p style={{ color: "white" }}>
-        I love finding patterns in performance and using data to ask better questions in sports, education, and everyday life.
+          I love finding patterns in performance and using data to ask better
+          questions in sports, education, and everyday life.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          
+          {/* --- Wharton 아티클 카드 (새로 추가) --- */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={whartonImg}
+              isBlog={false} // 'Demo' 버튼으로 표시하기 위해 false로 설정
+              title="Wharton Moneyball FLEX Article"
+              description="An article published by the Wharton Global Youth Program about my project that analyzed the optimal debut age for F1 drivers, applying statistical methods from the Moneyball FLEX program."
+              demoLink="https://globalyouth.wharton.upenn.edu/news/analyzing-f-1-motorsports-drivers-in-whartons-moneyball-flex/"
+            />
+          </Col>
 
+          {/* --- SJA Lunch 웹사이트 카드 (새로 추가) --- */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sjaLunchImg}
+              isBlog={false} // 'Demo' 버튼으로 표시하기 위해 false로 설정
+              title="SJA Lunch Website"
+              description="A web application developed to provide the daily meal menu for the St. Johnsbury Academy Jeju community. It's a live service I manage, handling everything from data input to deployment."
+              demoLink="https://www.sjalunch.com/"
+            />
+          </Col>
+
+          {/* --- 기존 프로젝트 카드들 --- */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
@@ -33,7 +63,6 @@ function Projects() {
             />
           </Col>
 
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
@@ -43,7 +72,6 @@ function Projects() {
               ghLink="https://github.com/Sewon231/F1-rookie-age-analysis-project"
             />
           </Col>
-
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -65,7 +93,6 @@ function Projects() {
             />
           </Col>
 
-          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Lakers}
@@ -75,8 +102,6 @@ function Projects() {
               ghLink="https://github.com/Sewon231/LA-LAKERS-Player-stat-2023-2024"
             />
           </Col>
-
-        
         </Row>
       </Container>
     </Container>
