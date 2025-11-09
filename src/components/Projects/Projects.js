@@ -44,15 +44,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Lakers}
-              isBlog={false}
-              title="LA Lakers 23-24 Player Stats"
-              description="One of the most important things in sports data science is visualizing data, which can take the form of graphs or charts. This project focuses on visualizing player statistics, which is fundamental to the field of sports data science. The goal is to present clear and insightful visual representations of player performance metrics for the 2023-24 LA Lakers season."
-              ghLink="https://github.com/Sewon231/LA-LAKERS-Player-stat-2023-2024"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -75,6 +66,17 @@ function Projects() {
           </Col>
 
           
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Lakers}
+              isBlog={false}
+              title="LA Lakers 23-24 Player Stats"
+              description="One of the most important things in sports data science is visualizing data, which can take the form of graphs or charts. This project focuses on visualizing player statistics, which is fundamental to the field of sports data science. The goal is to present clear and insightful visual representations of player performance metrics for the 2023-24 LA Lakers season."
+              ghLink="https://github.com/Sewon231/LA-LAKERS-Player-stat-2023-2024"
+            />
+          </Col>
+
+        
         </Row>
       </Container>
     </Container>
