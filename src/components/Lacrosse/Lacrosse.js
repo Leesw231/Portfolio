@@ -11,14 +11,14 @@ import video2 from "../../Assets/Projects/Bodycheck2023.mov";
 import photo1 from "../../Assets/Projects/0I1A5148_Original.jpg";
 import photo2 from "../../Assets/Projects/0I1A5850_Original.jpg";
 import photo3 from "../../Assets/Projects/0I1A7296_Original.jpg";
-import photo4 from "../../Assets/Projects/IMG_6778-2.jpg";
-import photo5 from "../../Assets/Projects/IMG_6747.jpg";
-import photo6 from "../../Assets/Projects/IMG_6783-2.jpg";
+import photo4 from "../../Assets/Projects/IMG_6778-2.JPG";
+import photo5 from "../../Assets/Projects/IMG_6747.JPG";
+import photo6 from "../../Assets/Projects/IMG_6783-2.JPG";
 import photo7 from "../../Assets/Projects/0I1A6339_Original.jpg";
 import photo8 from "../../Assets/Projects/0I1A5372_Original.jpg";
 import photo9 from "../../Assets/Projects/0I1A5937_Original.jpg";
-import photo10 from "../../Assets/Projects/IMG_6784-2.jpg";
-import photo11 from "../../Assets/Projects/IMG_6782.jpg";
+import photo10 from "../../Assets/Projects/IMG_6784-2.JPG";
+import photo11 from "../../Assets/Projects/IMG_6782.JPG";
 
 const photos = [
   { id: 1, src: photo1, alt: "Lacrosse Photo 1" },
