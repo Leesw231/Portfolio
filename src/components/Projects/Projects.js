@@ -12,8 +12,8 @@ import baseball from "../../Assets/Projects/Yankees.png";
 // --------------------
 
 // --- 새로 추가된 이미지 ---
-import whartonImg from "../../Assets/Projects/Wharton.jpg";
-import sjaLunchImg from "../../Assets/Projects/SJALunch.jpg";
+import whartonImg from "../../Assets/Projects/Wharton.png";
+import sjaLunchImg from "../../Assets/Projects/SJALunch.png";
 // -----------------------
 
 function Projects() {
