@@ -741,3 +741,10 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.rotated-image .card-img-top {
+  transform: rotate(90deg);
+  width: auto; /* 회전 후 비율 유지를 위해 너비 자동 조정 */
+  max-height: 250px; /* 카드 높이에 맞게 최대 높이 설정 */
+  margin: 20px auto; /* 위아래 여백 추가 및 중앙 정렬 */
+}

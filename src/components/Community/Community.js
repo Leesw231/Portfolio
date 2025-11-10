@@ -59,8 +59,10 @@ function Community() {
               isBlog={false}
               title="Excellent Volunteer Award 2025"
               description="Recognized as an Excellent Volunteer by the city of Icheon for dedicated community service."
+              customClassName="rotated-image" // <--- 이 라인을 추가해주세요!
             />
           </Col>
+          
         </Row>
       </Container>
     </Container>

@@ -12,7 +12,7 @@ function Footer() {
         </Col>
         <Col md="6" className="footer-copywright">
           {/* --- 'year' 변수를 사용하도록 수정 --- */}
-          <h3>Copyright © {year} Sb</h3>
+          <h3>Copyright © {year} SL</h3>
         </Col>
       </Row>
     </Container>
