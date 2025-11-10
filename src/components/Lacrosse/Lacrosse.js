@@ -48,13 +48,13 @@ function Lacrosse() {
         <Row style={{ justifyContent: "center", paddingBottom: "20px" }}>
           <Col md={6} className="video-col">
             <video controls className="Goal2025">
-              <source src={video1} type="video/MOV" />
+              <source src={video1} type="Goal2025.MOV" />
               Your browser does not support the video tag.
             </video>
           </Col>
           <Col md={6} className="video-col">
             <video controls className="Bodycheck2023">
-              <source src={video2} type="video/mov" />
+              <source src={video2} type="Bodycheck2023.mov" />
               Your browser does not support the video tag.
             </video>
           </Col>
