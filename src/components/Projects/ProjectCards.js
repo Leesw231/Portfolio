@@ -6,7 +6,8 @@ import { BsGithub } from "react-icons/bs";
 
 function ProjectCards(props) {
   return (
-    <Card className="project-card-view">
+    // 바로 이 부분이 '특별 주문'을 처리하기 위해 추가된 기능입니다.
+    <Card className={`project-card-view ${props.customClassName || ""}`}>
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
@@ -14,7 +15,6 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
 
-        {/* GitHub 버튼: ghLink가 있을 때만 버튼을 보여줍니다. */}
         {props.ghLink && (
           <Button variant="primary" href={props.ghLink} target="_blank">
             <BsGithub /> &nbsp;
@@ -22,13 +22,12 @@ function ProjectCards(props) {
           </Button>
         )}
 
-        {/* Demo 버튼: demoLink가 있을 때만 버튼을 보여줍니다. */}
         {!props.isBlog && props.demoLink && (
           <Button
             variant="primary"
             href={props.demoLink}
             target="_blank"
-            style={{ marginLeft: props.ghLink ? "10px" : "0" }} // GitHub 버튼 유무에 따라 간격 조정
+            style={{ marginLeft: props.ghLink ? "10px" : "0" }}
           >
             <CgWebsite /> &nbsp;
             {"Demo"}
@@ -38,4 +37,5 @@ function ProjectCards(props) {
     </Card>
   );
 }
+
 export default ProjectCards;
