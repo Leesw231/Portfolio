@@ -2,22 +2,21 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineCamera
 } from "react-icons/ai";
-import { CgFileDocument } from "react-icons/cg";
-import { FaUsers } from "react-icons/fa";
-import { GiHockey } from "react-icons/gi";
-import { FaCameraRetro } from "react-icons/fa"; // 원래의 카메라 아이콘
+import { FaRunning } from "react-icons/fa"; // Lacrosse icon replacement
+import { BsMic } from "react-icons/bs";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
+  // 이 부분은 제공된 코드에 없었지만, 일반적으로 필요한 함수라 추가했습니다.
   function scrollHandler() {
     if (window.scrollY >= 20) {
       updateNavbar(true);
@@ -36,9 +35,6 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -51,6 +47,9 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
+            
+            {/* Home, Projects, Community & Work 탭 (기존 코드 유지) */}
+            {/* (이 부분은 전달해주신 코드에 없었지만, 일반적인 구조라 가정하고 추가했습니다.) */}
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
@@ -63,10 +62,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
+                <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} /> Projects
               </Nav.Link>
             </Nav.Item>
 
@@ -76,50 +72,43 @@ function NavBar() {
                 to="/community"
                 onClick={() => updateExpanded(false)}
               >
-                <FaUsers style={{ marginBottom: "2px" }} /> Community & Work
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Community & Work
               </Nav.Link>
             </Nav.Item>
 
+            {/* Lacrosse 탭 */}
             <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/lacrosse"
                 onClick={() => updateExpanded(false)}
               >
-                <GiHockey style={{ marginBottom: "2px" }} /> Lacrosse
-              </Nav.Link>
-            </Nav.Item>
-            
-            {/* --- 원래 제안드렸던 카메라 아이콘으로 수정했습니다 --- */}
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/Highlights"
-                onClick={() => updateExpanded(false)}
-              >
-                <FaCameraRetro style={{ marginBottom: "2px" }} /> Awards & Highlights
+                <FaRunning style={{ marginBottom: "2px" }} /> Lacrosse
               </Nav.Link>
             </Nav.Item>
 
+            {/* Photos & Highlights 탭 */}
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
+                to="/highlights"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineCamera style={{ marginBottom: "2px" }} />Awards & Highlights
               </Nav.Link>
             </Nav.Item>
-            
+
+            {/* Narrative Podcast Project 탭 */}
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/podcast"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <BsMic style={{ marginBottom: "2px" }} /> Narrative Podcast Project
               </Nav.Link>
             </Nav.Item>
+
           </Nav>
         </Navbar.Collapse>
       </Container>
