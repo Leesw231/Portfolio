@@ -47,7 +47,7 @@ function App() {
           <Route path="/lacrosse" element={<Lacrosse />} />
           <Route path="/highlights" element={<Highlights />} /> {/* 이 라인이 추가되었습니다. */}
           <Route path="*" element={<Navigate to="/" />} />
-          <Route path="/podcast" element={<Podcast />} /> {
+          <Route path="/podcast" element={<Podcast />} /> 
         </Routes>
         <Footer />
       </div>
