@@ -6,7 +6,7 @@ import Particle from "../Particle";
 // --- 이미지 import ---
 import icheonJournal from "../../Assets/Projects/IcheonJournal.png";
 import wechok from "../../Assets/Projects/WEchok.png";
-import internship from "../../Assets/Projects/spaceradar.png";
+import internship from "../../Assets/Projects/Internship.png";
 import volunteerAward from "../../Assets/Projects/VolunteerAward.jpg";
 
 function Community() {
@@ -52,17 +52,15 @@ function Community() {
             />
           </Col>
           
-          {/* --- 우수봉사자증 카드 --- */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={volunteerAward}
               isBlog={false}
-              title="Outstanding Volunteer Award 2025"
-              description="Recognized as an Outstanding Volunteer by the city of Icheon for dedicated community service."
-              customClassName="rotated-image" // <--- 이 라인을 추가해주세요!
+              title="Excellent Volunteer Award 2025"
+              description="Recognized as an Excellent Volunteer by the city of Icheon for dedicated community service."
+              customClassName="rotate-270" // <-- 이 한 줄만 추가하시면 됩니다!
             />
           </Col>
-
         </Row>
       </Container>
     </Container>

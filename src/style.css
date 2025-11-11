@@ -742,9 +742,16 @@ button:focus {
   display: none !important;
 }
 
-.rotated-image .card-img-top {
-  transform: rotate(270deg); /* -90도로 수정하여 방향을 바로잡습니다. */
-  width: auto;
-  max-height: 250px; 
-  margin: 20px auto;
+.rotate-90 {
+  transform: rotate(90deg);
+  /* 회전 후 그리드에 맞게 크기 및 위치 미세 조정 */
+  max-width: 130% !important; 
+  margin-top: 15%;
+}
+
+/* 봉사상 (반시계 방향 90도 회전) */
+.rotate-270 {
+  transform: rotate(270deg);
+  /* 회전 후 세로 길이에 맞춰 너비 조정 */
+  max-width: 70vh !important; 
 }

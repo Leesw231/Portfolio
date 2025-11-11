@@ -86,7 +86,7 @@ function Highlights() {
             <h2 className="highlight-title">National High School Sports Analytics Summit</h2>
             <div className="gallery-grid">
               <img src={nhssas1} alt="NHSSAS 1" className="gallery-grid-image" />
-              <img src={nhssas2} alt="NHSSAS 2" className="gallery-grid-image" />
+              <img src={nhssas2} alt="NHSSAS 2" className="gallery-grid-image rotate-90" />
               <img src={nhssas3} alt="NHSSAS 3" className="gallery-grid-image" />
               <img src={nhssas4} alt="NHSSAS 4" className="gallery-grid-image" />
               <img src={nhssas5} alt="NHSSAS 5" className="gallery-grid-image" />
