@@ -74,17 +74,18 @@ function Projects() {
               demoLink="https://s22260956.shinyapps.io/short_project/"
             />
           </Col>
-
-          {/* --- 5. F1 Driver --- */}
+          {/* --- 7. Yankees Digital Transformation --- */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={f1Img}
+              imgPath={yankeesImg}
               isBlog={false}
-              title="F1 Driver Debut Age Analysis"
-              description="This project uses sports data science techniques to investigate whether there is an optimal debut age for F1 drivers, analyzing data from over 860 drivers."
-              ghLink="https://github.com/Sewon231/F1-rookie-age-analysis-project"
+              title="Sustainable Digital Transformation for the NY Yankees"
+              description="This project proposes a comprehensive digital transformation strategy for the New York Yankees, emphasizing sustainable and innovative solutions."
+              demoLink="https://docs.google.com/document/d/1Jw1fvSy7EQSG5KNEOw--DI9Wsi-jddlespqKCLNJSUA/edit?usp=sharing"
             />
           </Col>
+
+          
 
           {/* --- 6. Baseball Launch Conditions --- */}
           <Col md={4} className="project-card">
@@ -97,14 +98,14 @@ function Projects() {
             />
           </Col>
 
-          {/* --- 7. Yankees Digital Transformation --- */}
+          {/* --- 5. F1 Driver --- */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={yankeesImg}
+              imgPath={f1Img}
               isBlog={false}
-              title="Sustainable Digital Transformation for the NY Yankees"
-              description="This project proposes a comprehensive digital transformation strategy for the New York Yankees, emphasizing sustainable and innovative solutions."
-              demoLink="https://docs.google.com/document/d/1Jw1fvSy7EQSG5KNEOw--DI9Wsi-jddlespqKCLNJSUA/edit?usp=sharing"
+              title="F1 Driver Debut Age Analysis"
+              description="This project uses sports data science techniques to investigate whether there is an optimal debut age for F1 drivers, analyzing data from over 860 drivers."
+              ghLink="https://github.com/Sewon231/F1-rookie-age-analysis-project"
             />
           </Col>
 
