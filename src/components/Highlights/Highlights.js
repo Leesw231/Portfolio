@@ -9,16 +9,16 @@ import stanford from "../../Assets/Projects/Stanford.png";
 import harvard from "../../Assets/Projects/Harvard2.png";
 import harvardComment from "../../Assets/Projects/HarvardComment.png";
 import harvardSummer from "../../Assets/Projects/HarvardSummer.png";
-import tedx1 from "../../Assets/Projects/TEDx1.HEIC";
-import tedx2 from "../../Assets/Projects/TEDx2.HEIC";
-import tedx3 from "../../Assets/Projects/TEDx3.HEIC";
-import tedx4 from "../../Assets/Projects/TEDx4.HEIC";
-import tedx5 from "../../Assets/Projects/TEDx5.HEIC";
-import nhssas1 from "../../Assets/Projects/NHSSAS1.HEIC";
-import nhssas2 from "../../Assets/Projects/NHSSAS2.HEIC";
-import nhssas3 from "../../Assets/Projects/NHSSAS3.HEIC";
-import nhssas4 from "../../Assets/Projects/NHSSAS4.HEIC";
-import nhssas5 from "../../Assets/Projects/NHSSAS5.HEIC";
+import tedx1 from "../../Assets/Projects/TEDx1.jpg";
+import tedx2 from "../../Assets/Projects/TEDx2.jpg";
+import tedx3 from "../../Assets/Projects/TEDx3.jpg";
+import tedx4 from "../../Assets/Projects/TEDx4.jpg";
+import tedx5 from "../../Assets/Projects/TEDx5.jpg";
+import nhssas1 from "../../Assets/Projects/NHSSAS1.jpg";
+import nhssas2 from "../../Assets/Projects/NHSSAS2.jpg";
+import nhssas3 from "../../Assets/Projects/NHSSAS3.jpg";
+import nhssas4 from "../../Assets/Projects/NHSSAS4.jpg";
+import nhssas5 from "../../Assets/Projects/NHSSAS5.jpg";
 
 
 function Highlights() {

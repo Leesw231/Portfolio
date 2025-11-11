@@ -48,7 +48,7 @@ function Projects() {
               isBlog={false}
               title="AIJAM Finalist - Stress Factors in International Schools"
               description="A finalist at AIJAM 2025, this research uses a grounded theory approach to investigate the unique stress factors faced by students in Korean international schools, analyzing data from 500 students."
-              demoLink="/AIJAM.pdf" // public 폴더에 넣은 PDF 파일 경로
+              demoLink="https://docs.google.com/document/d/1dxub_F9vNOf88LKw7OOOIgI5XDOgqMs3qDLGJdNGrwo/edit?tab=t.0" // public 폴더에 넣은 PDF 파일 경로
             />
           </Col>
           
