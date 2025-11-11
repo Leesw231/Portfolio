@@ -4,13 +4,13 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 // --- 이미지 파일 Import ---
-import whartonImg from "../../Assets/Projects/Wharton.jpg";
-import sjaLunchImg from "../../Assets/Projects/SJALunch.jpg";
-import mlbStadiumImg from "../../Assets/Projects/MLB.jpg";
-import f1Img from "../../Assets/Projects/F1.jpg";
-import baseballLaunchImg from "../../Assets/Projects/baseball.jpg";
-import yankeesImg from "../../Assets/Projects/Yankees.jpg";
-import lakersImg from "../../Assets/Projects/Lakers.jpg";
+import whartonImg from "../../Assets/Projects/Wharton.png";
+import sjaLunchImg from "../../Assets/Projects/SJALunch.png";
+import mlbStadiumImg from "../../Assets/Projects/MLB.png";
+import f1Img from "../../Assets/Projects/F1.png";
+import baseballLaunchImg from "../../Assets/Projects/baseball.png";
+import yankeesImg from "../../Assets/Projects/Yankees.png";
+import lakersImg from "../../Assets/Projects/Lakers.png";
 
 // --- AIJAM 프로젝트를 위한 새 이미지 ---
 import aijamImg from "../../Assets/Projects/AIJAMImage.png"; // 임시 이미지 (원하는 이미지로 변경 가능)
