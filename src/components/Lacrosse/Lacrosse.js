@@ -3,9 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import "./Lacrosse.css";
 
-// --- 비디오 파일 (이름을 직접 수정해주세요) ---
+
+// --- 비디오 파일 ---
 import video1 from "../../Assets/Projects/Goal2025.mp4";
 import video2 from "../../Assets/Projects/Bodycheck2023.mp4";
+
 
 // --- 라크로스 사진들 ---
 import photo1 from "../../Assets/Projects/0I1A5148_Original.jpg";
@@ -19,6 +21,7 @@ import photo8 from "../../Assets/Projects/0I1A5372_Original.jpg";
 import photo9 from "../../Assets/Projects/0I1A5937_Original.jpg";
 import photo10 from "../../Assets/Projects/IMG_6784 2.JPG";
 import photo11 from "../../Assets/Projects/IMG_6782.JPG";
+
 
 const photos = [
   { id: 1, src: photo1, alt: "Lacrosse Photo 1" },
@@ -34,6 +37,7 @@ const photos = [
   { id: 11, src: photo11, alt: "Lacrosse Photo 11" },
 ];
 
+
 function Lacrosse() {
   return (
     <Container fluid className="lacrosse-section">
@@ -44,21 +48,23 @@ function Lacrosse() {
         </h1>
         <p style={{ color: "white" }}>Highlights and moments from the field.</p>
 
-        {/* --- 비디오 클립 섹션 --- */}
+
+        {/* --- 비디오 클립 섹션 (수정됨) --- */}
         <Row style={{ justifyContent: "center", paddingBottom: "20px" }}>
           <Col md={6} className="video-col">
-            <video controls className="Goal2025">
-              <source src={video1} type="Goal2025.mp4" />
+            <video controls className="lacrosse-video">
+              <source src={video1} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </Col>
           <Col md={6} className="video-col">
-            <video controls className="Bodycheck2023">
-              <source src={video2} type="Bodycheck2023.mp4" />
+            <video controls className="lacrosse-video">
+              <source src={video2} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </Col>
         </Row>
+
 
         {/* --- 사진 갤러리 섹션 --- */}
         <h2 style={{ color: "white", fontSize: "2.1em", paddingTop: "40px" }}>
@@ -75,5 +81,6 @@ function Lacrosse() {
     </Container>
   );
 }
+
 
 export default Lacrosse;
