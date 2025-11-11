@@ -743,7 +743,7 @@ button:focus {
 }
 
 .rotated-image .card-img-top {
-  transform: rotate(-90deg); /* -90도로 수정하여 방향을 바로잡습니다. */
+  transform: rotate(90deg); /* -90도로 수정하여 방향을 바로잡습니다. */
   width: auto;
   max-height: 250px; 
   margin: 20px auto;
