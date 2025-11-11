@@ -8,6 +8,9 @@ import Footer from "./components/Footer";
 import Community from "./components/Community/Community";
 import Lacrosse from "./components/Lacrosse/Lacrosse";
 import Highlights from "./components/Highlights/Highlights"; // 이 라인이 추가되었습니다.
+import Podcast from "./components/Podcast/Podcast"; 
+
+
 import {
   BrowserRouter as Router,
   Route,
@@ -44,6 +47,7 @@ function App() {
           <Route path="/lacrosse" element={<Lacrosse />} />
           <Route path="/highlights" element={<Highlights />} /> {/* 이 라인이 추가되었습니다. */}
           <Route path="*" element={<Navigate to="/" />} />
+          <Route path="/podcast" element={<Podcast />} /> {
         </Routes>
         <Footer />
       </div>
