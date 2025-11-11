@@ -6,7 +6,7 @@ import "./Highlights.css";
 // --- 이미지 Import (파일 이름 수정 완료) ---
 import aijamAward from "../../Assets/Projects/AIJAMAward.png";
 import stanford from "../../Assets/Projects/Stanford.png";
-import harvard from "../../Assets/Projects/Harvard.png";
+import harvard from "../../Assets/Projects/Harvard2.png";
 import harvardComment from "../../Assets/Projects/HarvardComment.png";
 import harvardSummer from "../../Assets/Projects/HarvardSummer.png";
 import tedx1 from "../../Assets/Projects/TEDx1.HEIC";
