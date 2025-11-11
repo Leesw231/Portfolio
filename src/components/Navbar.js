@@ -2,15 +2,17 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
+import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
-  AiOutlineCamera
 } from "react-icons/ai";
-import { FaRunning } from "react-icons/fa"; // Lacrosse icon replacement
-import { BsMic } from "react-icons/bs";
+import { CgFileDocument } from "react-icons/cg";
+import { FaUsers } from "react-icons/fa";
+import { GiHockey } from "react-icons/gi";
+import { FaCameraRetro } from "react-icons/fa"; // 원래의 카메라 아이콘
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -34,6 +36,9 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
+        <Navbar.Brand href="/" className="d-flex">
+          <img src={logo} className="img-fluid logo" alt="brand" />
+        </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -71,7 +76,7 @@ function NavBar() {
                 to="/community"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Community & Work
+                <FaUsers style={{ marginBottom: "2px" }} /> Community & Work
               </Nav.Link>
             </Nav.Item>
 
@@ -81,30 +86,40 @@ function NavBar() {
                 to="/lacrosse"
                 onClick={() => updateExpanded(false)}
               >
-                <FaRunning style={{ marginBottom: "2px" }} /> Lacrosse
+                <GiHockey style={{ marginBottom: "2px" }} /> Lacrosse
+              </Nav.Link>
+            </Nav.Item>
+            
+            {/* --- 원래 제안드렸던 카메라 아이콘으로 수정했습니다 --- */}
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/Highlights"
+                onClick={() => updateExpanded(false)}
+              >
+                <FaCameraRetro style={{ marginBottom: "2px" }} /> Awards & Highlights
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/photos"
+                to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineCamera style={{ marginBottom: "2px" }} /> Photos & Highlights
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
-
+            
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/podcast"
+                to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <BsMic style={{ marginBottom: "2px" }} /> Narrative Podcast Project
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
           </Nav>
         </Navbar.Collapse>
       </Container>
