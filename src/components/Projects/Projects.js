@@ -3,18 +3,18 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-// --- 기존 이미지들 ---
-import leaf from "../../Assets/Projects/F1.png";
-import Lakers from "../../Assets/Projects/Lakers.png";
-import bitsOfCode from "../../Assets/Projects/MLB.png";
-import Yankees from "../../Assets/Projects/baseball.png";
-import baseball from "../../Assets/Projects/Yankees.png";
-// --------------------
+// --- 이미지 파일 Import ---
+import whartonImg from "../../Assets/Projects/Wharton.jpg";
+import sjaLunchImg from "../../Assets/Projects/SJALunch.jpg";
+import mlbStadiumImg from "../../Assets/Projects/MLB.jpg";
+import f1Img from "../../Assets/Projects/F1.jpg";
+import baseballLaunchImg from "../../Assets/Projects/baseball.jpg";
+import yankeesImg from "../../Assets/Projects/Yankees.jpg";
+import lakersImg from "../../Assets/Projects/Lakers.jpg";
 
-// --- 새로 추가된 이미지 ---
-import whartonImg from "../../Assets/Projects/Wharton.png";
-import sjaLunchImg from "../../Assets/Projects/SJALunch.png";
-// -----------------------
+// --- AIJAM 프로젝트를 위한 새 이미지 ---
+import aijamImg from "../../Assets/Projects/AIJAMImage.png"; // 임시 이미지 (원하는 이미지로 변경 가능)
+
 
 function Projects() {
   return (
@@ -29,76 +29,92 @@ function Projects() {
           questions in sports, education, and everyday life.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {/* --- Wharton 아티클 카드 (새로 추가) --- */}
+
+          {/* --- 1. Wharton Article --- */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={whartonImg}
-              isBlog={false} // 'Demo' 버튼으로 표시하기 위해 false로 설정
+              isBlog={false}
               title="Wharton Moneyball FLEX Article"
-              description="An article published by the Wharton Global Youth Program about my project that analyzed the optimal debut age for F1 drivers, applying statistical methods from the Moneyball FLEX program."
+              description="An article by the Wharton Global Youth Program on my project analyzing the optimal debut age for F1 drivers using statistical methods."
               demoLink="https://globalyouth.wharton.upenn.edu/news/analyzing-f-1-motorsports-drivers-in-whartons-moneyball-flex/"
             />
           </Col>
 
-          {/* --- SJA Lunch 웹사이트 카드 (새로 추가) --- */}
+          {/* --- 2. AIJAM Finalist Paper (새로 추가) --- */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={aijamImg} // 임시 이미지입니다. 다른 이미지로 교체할 수 있습니다.
+              isBlog={false}
+              title="AIJAM Finalist - Stress Factors in International Schools"
+              description="A finalist at AIJAM 2025, this research uses a grounded theory approach to investigate the unique stress factors faced by students in Korean international schools, analyzing data from 500 students."
+              demoLink="/AIJAM.pdf" // public 폴더에 넣은 PDF 파일 경로
+            />
+          </Col>
+          
+          {/* --- 3. SJA Lunch Website --- */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={sjaLunchImg}
-              isBlog={false} // 'Demo' 버튼으로 표시하기 위해 false로 설정
+              isBlog={false}
               title="SJA Lunch Website"
-              description="A web application developed to provide the daily meal menu for the St. Johnsbury Academy Jeju community. 10000+ daily visitor."
+              description="A web application developed to provide the daily meal menu for the St. Johnsbury Academy Jeju community. 10000+ daily visits."
               demoLink="https://www.sjalunch.com/"
             />
           </Col>
 
-          {/* --- 기존 프로젝트 카드들 --- */}
+          {/* --- 4. MLB Stadium --- */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={mlbStadiumImg}
               isBlog={false}
               title="MLB Stadium Home Run Effect"
-              description="One of the most common myths in baseball is that a team loses because the stadium is too small or wins because of the stadium itself. You might think this is because the number of home runs produced varies greatly depending on the stadium. This project explains the correlation between those stadium differences and actual home run data, providing a clear analysis based on real statistics."
+              description="This project explains the correlation between stadium factors and home run statistics, providing a clear analysis based on real data."
               ghLink="https://github.com/Sewon231/MLB-Stadium-Analysis/blob/main/Final%20project.Rmd"
               demoLink="https://s22260956.shinyapps.io/short_project/"
             />
           </Col>
 
+          {/* --- 5. F1 Driver --- */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={f1Img}
               isBlog={false}
-              title="F1 Driver"
-              description="F1 is no longer a minor sport. It has attracted many fans, and competition among secondary markets and venues is very fierce. There are many different drivers in F1, including veterans like Sir Lewis Hamilton and Asian drivers like Yuki Tsunoda. Each driver has a different debut age. Therefore, this project uses sports data science techniques to investigate whether there is an optimal debut age for F1 drivers."
+              title="F1 Driver Debut Age Analysis"
+              description="This project uses sports data science techniques to investigate whether there is an optimal debut age for F1 drivers, analyzing data from over 860 drivers."
               ghLink="https://github.com/Sewon231/F1-rookie-age-analysis-project"
             />
           </Col>
 
+          {/* --- 6. Baseball Launch Conditions --- */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={baseball}
+              imgPath={baseballLaunchImg}
               isBlog={false}
-              title="Analysis of optimal launch conditions for each baseball field: Mathematical modeling using minimum wall height and distance data"
-              description="This research analyzes optimal launch conditions for home runs in different MLB stadiums by modeling the effects of wall height and distance on the minimum required speed and angle for a successful home run."
+              title="Analysis of Optimal Launch Conditions for Home Runs"
+              description="This research analyzes optimal launch conditions for home runs in different MLB stadiums by modeling the effects of wall height and distance."
               demoLink="https://docs.google.com/document/d/1iEFWJ9AabdIbJRGczTmhniK2F_ywutWqr96E7MXcKfs/edit?usp=sharing"
             />
           </Col>
 
+          {/* --- 7. Yankees Digital Transformation --- */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Yankees}
+              imgPath={yankeesImg}
               isBlog={false}
-              title="Triple Play Strategy: Sustainable Digital Transformation for the New York Yankees"
-              description="This project proposes a comprehensive digital transformation strategy for the New York Yankees, emphasizing sustainable and innovative solutions to enhance the organization’s operations."
+              title="Sustainable Digital Transformation for the NY Yankees"
+              description="This project proposes a comprehensive digital transformation strategy for the New York Yankees, emphasizing sustainable and innovative solutions."
               demoLink="https://docs.google.com/document/d/1Jw1fvSy7EQSG5KNEOw--DI9Wsi-jddlespqKCLNJSUA/edit?usp=sharing"
             />
           </Col>
 
+          {/* --- 8. LA Lakers Stats --- */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Lakers}
+              imgPath={lakersImg}
               isBlog={false}
-              title="LA Lakers 23-24 Player Stats"
-              description="One of the most important things in sports data science is visualizing data, which can take the form of graphs or charts. This project focuses on visualizing player statistics, which is fundamental to the field of sports data science. The goal is to present clear and insightful visual representations of player performance metrics for the 2023-24 LA Lakers season."
+              title="LA Lakers 23-24 Player Stats Visualization"
+              description="This project focuses on visualizing player performance metrics for the 2023-24 LA Lakers season, a fundamental skill in sports data science."
               ghLink="https://github.com/Sewon231/LA-LAKERS-Player-stat-2023-2024"
             />
           </Col>

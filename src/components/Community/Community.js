@@ -6,7 +6,7 @@ import Particle from "../Particle";
 // --- 이미지 import ---
 import icheonJournal from "../../Assets/Projects/IcheonJournal.png";
 import wechok from "../../Assets/Projects/WEchok.png";
-import internship from "../../Assets/Projects/Internship.png";
+import internship from "../../Assets/Projects/spaceradar.png";
 import volunteerAward from "../../Assets/Projects/VolunteerAward.jpg";
 
 function Community() {
@@ -62,7 +62,7 @@ function Community() {
               customClassName="rotated-image" // <--- 이 라인을 추가해주세요!
             />
           </Col>
-          
+
         </Row>
       </Container>
     </Container>
