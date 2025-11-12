@@ -36,7 +36,7 @@ function Projects() {
               imgPath={whartonImg}
               isBlog={false}
               title="Wharton Moneyball FLEX Article"
-              description="An article by the Wharton Global Youth Program on my project analyzing the optimal debut age for F1 drivers using statistical methods."
+              description="I wrote an article for the Wharton Global Youth Program on my project analyzing the optimal debut age for Formula 1 drivers using statistical methods."
               demoLink="https://globalyouth.wharton.upenn.edu/news/analyzing-f-1-motorsports-drivers-in-whartons-moneyball-flex/"
             />
           </Col>
@@ -47,7 +47,7 @@ function Projects() {
               imgPath={aijamImg} // 임시 이미지입니다. 다른 이미지로 교체할 수 있습니다.
               isBlog={false}
               title="AIJAM Finalist - Stress Factors in International Schools"
-              description="A finalist at AIJAM 2025, this research uses a grounded theory approach to investigate the unique stress factors faced by students in Korean international schools, analyzing data from 500 students."
+              description="I was a co-author and Gold Prize recipient at AIJAM 2025 for research that used a grounded theory approach to examine the unique stress factors faced by students in Korean international schools. Our study analyzed data from 500 students to identify key patterns and insights."
               demoLink="https://docs.google.com/document/d/1dxub_F9vNOf88LKw7OOOIgI5XDOgqMs3qDLGJdNGrwo/edit?tab=t.0" // public 폴더에 넣은 PDF 파일 경로
             />
           </Col>
