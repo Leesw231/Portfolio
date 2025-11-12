@@ -1,0 +1,36 @@
+.podcast-section {
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    min-height: 100vh;
+  }
+  
+  .podcast-content {
+    text-align: center;
+  }
+  
+  .project-heading {
+    color: white;
+    font-size: 2.3em;
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+  
+  .video-container {
+    margin-top: 40px;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid rgba(149, 75, 239, 0.4);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+  }
+  
+  .responsive-video {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border-radius: 7px;
+  }
+  
