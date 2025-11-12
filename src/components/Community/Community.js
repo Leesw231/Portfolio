@@ -56,8 +56,8 @@ function Community() {
             <ProjectCard
               imgPath={volunteerAward}
               isBlog={false}
-              title="Excellent Volunteer Award 2025"
-              description="Recognized as an Excellent Volunteer by the city of Icheon for dedicated community service."
+              title="Outstanding Volunteer Award 2025"
+              description="Recognized as an Outstanding Volunteer by the city of Icheon for dedicated community service."
               customClassName="rotate-270" // <-- 이 한 줄만 추가하시면 됩니다!
             />
           </Col>

@@ -52,7 +52,7 @@ function Highlights() {
         {/* --- Harvard 2024 --- */}
         <Row className="highlight-row">
           <Col>
-            <h2 className="highlight-title">Harvard Pre-College Program 2024</h2>
+            <h2 className="highlight-title">Harvard Pre-College Program 2024/2025</h2>
             <img src={harvard} alt="Harvard Transcript" className="highlight-image-half" />
             <img src={harvardComment} alt="Harvard Comments" className="highlight-image-half" />
           </Col>
