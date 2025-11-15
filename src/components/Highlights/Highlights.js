@@ -7,7 +7,7 @@ import "./Highlights.css";
 import aijamAward from "../../Assets/Projects/AIJAMAward.png";
 import stanford from "../../Assets/Projects/Stanford.png";
 import harvard from "../../Assets/Projects/Harvard2.png";
-import harvardComment from "../../Assets/Projects/HarvardComment.png";
+import harvardComment from "../../Assets/Projects/HarvardC.png";
 import harvardSummer from "../../Assets/Projects/HarvardSummer.png";
 import tedx1 from "../../Assets/Projects/TEDx1.jpg";
 import tedx2 from "../../Assets/Projects/TEDx2.jpg";
@@ -27,7 +27,7 @@ function Highlights() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Photos & <strong className="purple">Highlights</strong>
+          Awards & <strong className="purple">Highlights</strong>
         </h1>
         <p style={{ color: "white" }}>
           A collection of my academic and extracurricular achievements.
@@ -41,13 +41,6 @@ function Highlights() {
           </Col>
         </Row>
 
-        {/* --- Stanford Summer Camp --- */}
-        <Row className="highlight-row">
-          <Col>
-            <h2 className="highlight-title">Stanford Pre-Collegiate Summer Institutes 2024</h2>
-            <img src={stanford} alt="Stanford Certificate" className="highlight-image" />
-          </Col>
-        </Row>
 
         {/* --- Harvard 2024 --- */}
         <Row className="highlight-row">
@@ -57,6 +50,18 @@ function Highlights() {
             <img src={harvardComment} alt="Harvard Comments" className="highlight-image-half" />
           </Col>
         </Row>
+
+
+
+        {/* --- Stanford Summer Camp --- */}
+        <Row className="highlight-row">
+          <Col>
+            <h2 className="highlight-title">Stanford Pre-Collegiate Summer Institutes 2024</h2>
+            <img src={stanford} alt="Stanford Certificate" className="highlight-image" />
+          </Col>
+        </Row>
+
+        
 
         {/* --- Harvard Summer 2025 --- */}
         <Row className="highlight-row">
@@ -71,11 +76,12 @@ function Highlights() {
           <Col>
             <h2 className="highlight-title">TEDx Speaker</h2>
             <div className="gallery-grid">
-              <img src={tedx1} alt="TEDx 1" className="gallery-grid-image" />
-              <img src={tedx2} alt="TEDx 2" className="gallery-grid-image" />
+              
               <img src={tedx3} alt="TEDx 3" className="gallery-grid-image" />
               <img src={tedx4} alt="TEDx 4" className="gallery-grid-image" />
               <img src={tedx5} alt="TEDx 5" className="gallery-grid-image" />
+              <img src={tedx1} alt="TEDx 1" className="gallery-grid-image" />
+              <img src={tedx2} alt="TEDx 2" className="gallery-grid-image" />
             </div>
           </Col>
         </Row>

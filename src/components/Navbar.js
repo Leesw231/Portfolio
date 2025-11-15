@@ -94,7 +94,7 @@ function NavBar() {
                 to="/highlights"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineCamera style={{ marginBottom: "2px" }} />Awards & Highlights
+                <AiOutlineCamera style={{ marginBottom: "2px" }} /> Awards & Highlights
               </Nav.Link>
             </Nav.Item>
 
