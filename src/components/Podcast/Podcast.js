@@ -24,7 +24,7 @@ function Podcast() {
                   [중요] 파일 이름에 띄어쓰기와 특수문자가 포함되어 있으니,
                   public 폴더에 있는 실제 파일 이름과 정확히 일치하는지 확인해주세요.
                 */}
-                <source src="/Sewon Lee (Narrative Remix).mp3" type="audio/mpeg" />
+                <source src="/NarrativeRemix.mp3" type="audio/mpeg" />
                 Your browser does not support the audio element.
               </audio>
             </div>
