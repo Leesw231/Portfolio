@@ -53,15 +53,15 @@ function Community() {
           </Col>
           
                     {/* --- 우수봉사자증 카드 --- */}
-                    <Col md={4} className="project-card">
+          <Col md={4} className="project-card volunteer-award-card"> {/* <--- 여기에 클래스 추가 */}
             <ProjectCard
               imgPath={volunteerAward}
-              isBlog={true}  // <--- 이 값을 true로 변경해야 합니다.
+              isBlog={true}
               title="Outstanding Volunteer Award 2025"
               description="Recognized as an Outstanding Volunteer by the city of Icheon for dedicated community service."
-              customClassName="rotate-270" 
             />
           </Col>
+
         </Row>
       </Container>
     </Container>

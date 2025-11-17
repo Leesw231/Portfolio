@@ -79,8 +79,6 @@ function Highlights() {
               
               <img src={tedx3} alt="TEDx 3" className="gallery-grid-image" />
               <img src={tedx4} alt="TEDx 4" className="gallery-grid-image" />
-              <img src={tedx5} alt="TEDx 5" className="gallery-grid-image" />
-              <img src={tedx1} alt="TEDx 1" className="gallery-grid-image" />
               <img src={tedx2} alt="TEDx 2" className="gallery-grid-image" />
             </div>
           </Col>

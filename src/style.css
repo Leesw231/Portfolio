@@ -755,3 +755,14 @@ button:focus {
   /* 회전 후 세로 길이에 맞춰 너비 조정 */
   max-width: 70vh !important; 
 }
+
+
+/* --- Community 페이지의 특정 카드 이미지 회전 --- */
+
+/* 'volunteer-award-card' 클래스 내부에 있는 이미지(.card-img-top)만 특정하여 회전시킵니다. */
+.volunteer-award-card .card-img-top {
+  transform: rotate(270deg) !important;
+  max-width: 80% !important; /* 카드의 너비에 맞게 조정 */
+  height: auto !important;
+  margin: 40px auto; /* 이미지 위치 중앙 정렬 및 상하 여백 추가 */
+}
