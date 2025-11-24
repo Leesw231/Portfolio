@@ -27,7 +27,22 @@ function Community() {
               imgPath={icheonJournal}
               isBlog={false}
               title="Icheon Journal Interview – “Rich Man of Joy”"
-              description="An article from the Icheon Journal featuring my volunteering story and my philosophy on sharing. (Click for English translation: https://docs.google.com/document/d/1I2uLqLNE3jc9i-m2Zf_jLQ6VoSkm1rELe7R9Kqh6ZvA/edit?tab=t.0#heading=h.46ad0xnqpu2w)"
+              description={
+                <>
+                  An article from the Icheon Journal featuring my volunteering story and my philosophy on sharing.
+                  <br />
+                  (
+                  <a
+                    href="https://docs.google.com/document/d/1I2uLqLNE3jc9i-m2Zf_jLQ6VoSkm1rELe7R9Kqh6ZvA/edit?tab=t.0#heading=h.46ad0xnqpu2w"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "#8b5cf6", textDecoration: "underline" }}
+                  >
+                    English translation
+                  </a>
+                  )
+                </>
+              }
               demoLink="https://www.2000n.net/news/articleView.html?idxno=30011"
             />
           </Col>
@@ -51,9 +66,9 @@ function Community() {
               description="Certificate for a paid internship at SpaceRadar, where I worked as a company student intern focusing on aerospace data analysis and visualization."
             />
           </Col>
-          
-                    {/* --- 우수봉사자증 카드 --- */}
-          <Col md={4} className="project-card volunteer-award-card"> {/* <--- 여기에 클래스 추가 */}
+
+          {/* --- 우수봉사자증 카드 --- */}
+          <Col md={4} className="project-card volunteer-award-card">
             <ProjectCard
               imgPath={volunteerAward}
               isBlog={true}
@@ -61,7 +76,6 @@ function Community() {
               description="Recognized as an Outstanding Volunteer by the city of Icheon for dedicated community service."
             />
           </Col>
-
         </Row>
       </Container>
     </Container>
