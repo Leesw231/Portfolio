@@ -26,8 +26,8 @@ function Community() {
             <ProjectCard
               imgPath={icheonJournal}
               isBlog={false}
-              title="Icheon Journal - 'Rich Man of Joy' Article"
-              description="An article featured in the Icheon Journal covering my volunteering story and my philosophy on sharing.(Translated Version of Article: https://docs.google.com/document/d/1I2uLqLNE3jc9i-m2Zf_jLQ6VoSkm1rELe7R9Kqh6ZvA/edit?tab=t.0#heading=h.46ad0xnqpu2w)"
+              title="Icheon Journal Interview – “Rich Man of Joy”"
+              description="dAn article from the Icheon Journal featuring my volunteering story and my philosophy on sharing. (Click for English translation: https://docs.google.com/document/d/1I2uLqLNE3jc9i-m2Zf_jLQ6VoSkm1rELe7R9Kqh6ZvA/edit?tab=t.0#heading=h.46ad0xnqpu2w)"
               demoLink="https://www.2000n.net/news/articleView.html?idxno=30011"
             />
           </Col>
